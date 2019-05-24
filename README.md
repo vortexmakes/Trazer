@@ -1,22 +1,20 @@
 # Trazer - Visualization tool for RKH framework built in trace facility
 
-
-## Examples
-
-Repo [rkh-examples](https://github.com/vortexmakes/rkh-examples) contains a 
-collection of open source examples based on RKH framework to develop embedded 
-software for several platforms. In this context, it refers to combination of 
-CPU architecture, compiler or IDE, and operating system. Also, rkh-examples 
-includes some demostrative and cross-platform applications running under 
-Windows and Linux to improve and fast development cycle.
-
-
+![Trazer diagram](doc/images/trazer.png)
 
 ## Documentation
 
-Documentation exists in the [reference manual](https://vortexmakes.com/rkh/trazer.html). 
+Documentation exists in the [reference manual](https://vortexmakes.com/rkh/trazer.html).
 Also, additional information is located in the  official site 
 https://www.vortexmakes.com/. For now, it is in Spanish.
+
+## Building
+
+### Linux
+Makefile build on: \arch\linux_gnu\Makefile
+
+### Windows
+Open and build Visual Studio Project (2008-2017) on: arch\win_vc08\prj\trazer.sln
 
 ## Trazer Release notes
 
