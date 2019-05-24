@@ -1,6 +1,7 @@
 # Trazer - Visualization tool for RKH framework built in trace facility
 
-![Trazer diagram](doc/images/trazer.png)
+![Trazer](doc/images/trazer.png)
+![Trazer diagram](doc/images/diagram.png)
 
 ## Documentation
 
