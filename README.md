@@ -10,7 +10,7 @@ Also, additional information is located in the  official site
 https://www.vortexmakes.com/. For now, it is in Spanish.
 
 ## Running
-Trazer Releases brings ready to use executables for linux and windows platforms.
+Trazer [Releases](https://github.com/dariosb/Trazer/releases) brings ready to use executables for linux and windows platforms.
 A simple command line options are used for configure Trazer behaviour
 
          -s Symbol load from binary stream file
