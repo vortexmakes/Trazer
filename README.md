@@ -9,7 +9,39 @@ Documentation exists in the [reference manual](https://vortexmakes.com/rkh/traze
 Also, additional information is located in the  official site 
 https://www.vortexmakes.com/. For now, it is in Spanish.
 
+## Running
+Trazer Releases brings ready to use executables for linux and windows platforms.
+A simple command line options are used for configure Trazer behaviour
+
+         -s Symbol load from binary stream file
+         -f Parse from binary stream file
+         -c Parse from COM Port
+              COM Port setup must be specified ex:
+              trazer -c COM1 115200 8N1.
+         -t Parse from specified TCP port number
+         -o Produce output to the specified file
+         -q Quiet mode
+         -v Version info
+         -h (help)
+         
+### Examples:
+#### TCP
+Trazer as a Socket server that listen on specific port.
+
+`trazer -t 1662`
+        
+#### Serial
+Trazer reading from serial port at specific baudrate and format.
+
+`trazer -c COM1 115200 8N1`
+        
+#### Offline
+Trazer can proccess trace information from a file previusly captured.
+
+`trazer -f filename`
+
 ## Building
+If you need to recompile for an specific you can start with this supported builds:
 
 ### Linux
 Makefile build on: \arch\linux_gnu\Makefile
